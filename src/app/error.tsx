@@ -1,5 +1,5 @@
 'use client';
-
+//import
 import Link from 'next/link';
 import { useEffect } from 'react';
 import { Heading } from '@/components/shared/ui/Heading';
