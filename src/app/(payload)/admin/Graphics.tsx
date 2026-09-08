@@ -1,6 +1,21 @@
 'use client';
 
-
+export const Logo = () => (
+  <div className="flex items-center gap-2">
+    <Icon />
+    <div>
+      <div className="font-display text-xl font-bold text-white">
+        BNB{' '}
+        <span className="bg-linear-to-r from-blue-500 to-cyan-500 bg-clip-text text-transparent">
+          ÉNERGIE
+        </span>
+      </div>
+      <p className="font-display pl-2 text-[10px] text-white/80">
+        Certifié RGE QualiPV
+      </p>
+    </div>
+  </div>
+);
 
 export const Icon = () => (
   <div
